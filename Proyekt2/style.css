@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-weight: 400;
+    margin: 10px 0;
+}
+
+.head{
+    background-color: black;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.head a{
+    padding: 8px 16px;
+    float: left;
+}
+
+.head a:hover{
+    background-color: #ccc;
+}
+
+.head i{
+    color: white;
+}
+
+.head a:hover i{
+    color: black;
+}
+
+.jane{
+    padding: 48px 16px;
+    text-align: center;
+}
+
+.jane span{
+    color: white;
+    background-color: black;
+    padding: 0 8px;
+}
+
+.jimg{
+    position: relative;
+    color: white;
+    background-color: #d6d5d5;
+}
+
+.jimg img{
+    max-width: 100%;
+    height: auto;
+}
+
+.jimg div{
+    position: absolute;
+    bottom: 15%;
+    left: 0%;
+    padding: 12px 24px;
+    transform: translate(0%,-50%);
+}
+
+.jimg a{
+    padding: 12px 24px;
+    background-color: #ccc;
+    color: black;
+    text-decoration: none;
+}
+
+.jimg a:hover{
+    background-color: white;
+}
+
+.parts{
+    padding: 12px 24px;
+    margin: 16px;
+    background-color: white;
+}
+
+.sect{
+    padding: 8px 16px;
+    display: flex;
+    background-color: #d6d5d5;
+}
+
+.p p{
+    margin: 15px 0;
+}
+
+.b2{
+    background-color: black;
+    padding: 8px 16px;
+    border: none;
+    color: white;
+}
