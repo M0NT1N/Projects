@@ -54,7 +54,7 @@ h1, h2, h3, h4, h5, h6{
 .jimg{
     position: relative;
     color: white;
-    background-color: #d6d5d5;
+    background-color: #f1f1f1;
 }
 
 .jimg img{
@@ -90,11 +90,22 @@ h1, h2, h3, h4, h5, h6{
 .sect{
     padding: 8px 16px;
     display: flex;
-    background-color: #d6d5d5;
+    background-color: #f1f1f1;
 }
 
 .p p{
     margin: 15px 0;
+}
+
+.b1{
+    padding: 8px 16px;
+    background-color: white;
+    border: 1px solid #ccc;
+    font-size: 15px;
+}
+
+.b1:hover{
+    background-color: #ccc;
 }
 
 .b2{
@@ -102,4 +113,25 @@ h1, h2, h3, h4, h5, h6{
     padding: 8px 16px;
     border: none;
     color: white;
+    font-size: 15px;
 }
+
+.b2:hover{
+    color: black;
+    background-color: #ccc;
+}
+
+.db{
+   display: block !important;
+}
+
+hr{
+    border-top: 1px solid #f1f1f1;
+    margin: 20px 0;
+}
+
+.post{
+    margin: 16px;
+}
+
+
